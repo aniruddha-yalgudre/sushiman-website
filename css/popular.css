@@ -1,0 +1,190 @@
+.popular{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: var(--primary-color);
+}
+.popular h1{
+    position: absolute;
+    top: 3.2vw;
+    font-size: 4.2vw;
+    align-items: center;
+}
+.popular .pop-buttons {
+    top: 12vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 4vw;
+    
+    
+    
+}
+
+.pop-buttons button{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pop-buttons button{
+    
+    padding: 20px 50px;
+    margin-left: 40px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 1.1vw;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all 0.6s ease;
+    background: transparent;
+    border: 1px solid white;
+background: rgba(189, 183, 183, 0.355);
+backdrop-filter: blur( 1px );
+-webkit-backdrop-filter: blur( 1px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.pop-buttons button:hover{
+    transform: scale(1.08);
+}
+.pop-buttons button:hover{
+    transform: scale(1.08);
+}
+
+
+.pop-buttons .first img {
+        
+    height: 130%;
+    width: 130%;
+    object-fit: contain;    
+    object-position: center;
+    
+}
+.pop-buttons .second img {
+        
+    height: 130%;
+    width: 130%;
+    object-fit: contain;    
+    object-position: center;
+    
+}
+.pop-buttons .third img {
+        
+    height: 130%;
+    width: 130%;
+    object-fit: contain;    
+    object-position: center;
+    
+}
+.pop-buttons .fourth img {
+        
+    height: 130%;
+    width: 130%;
+    object-fit: contain;    
+    object-position: center;
+    
+}
+
+
+.popular .cards {
+    position:absolute;
+    margin-top: 22vw;
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+    
+}
+.cards .left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    color: #fff;
+    border-radius: 40px;
+    background: rgba( 245, 243, 243, 0.1 ); 
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border: 2px solid rgba(236, 226, 226, 0.444);
+}
+
+.cards .left img {
+    position: absolute;
+    top: 40px;
+    height: 40%;
+    width: 60%;
+    
+}
+.cards .center{
+    top: -2.4vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 420px;
+    width: 350px;
+    color: black;
+    border-radius: 40px;
+    background-color: #fff;
+    border: 2px solid rgba(236, 226, 226, 0.444);
+}
+.cards .center img  {
+    position: absolute;
+    top: 40px;
+    height: 40%;
+    width: 60%;
+    
+}
+.cards .right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    color: #fff;
+    border-radius: 40px;
+    background: rgba( 245, 243, 243, 0.1 ); 
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border: 2px solid rgba(236, 226, 226, 0.444);
+}
+.cards .right img {
+    position: absolute;
+    top: 40px;
+    height: 40%;
+    width: 60%;
+    
+}
+ .cards h3{
+    position: absolute;
+    bottom: 1.5vw;
+    color: #fff;
+    padding: 12px 24px;
+    background: #000;
+    border-radius:40px ;
+    transition: all ease-out .3s;
+}
+.cards h3:hover{
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.cards h1{
+    position: absolute;
+    margin-top: 11vw;
+    font-size: 2.5vw;
+
+}
+.cards .center h1{
+    position: absolute;
+    margin-top: 14vw;
+    font-size: 2.5vw;
+
+}
+
+ 

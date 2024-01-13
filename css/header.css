@@ -1,0 +1,30 @@
+
+header{
+    height:74px ;
+    position: relative;
+    flex: 1;         
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    background-color:black;
+    color: #fff;
+    z-index: 99;
+}
+
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    
+}
+ul a>i{
+    font-size: 25px;
+}
+ul >a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}

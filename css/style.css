@@ -1,0 +1,29 @@
+
+
+
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./about.css");
+@import url("./popular.css");
+
+
+
+:root{
+    --primary-color:#b1454a;
+    
+}
+
+*{
+    margin: 0;
+    padding:0;
+     box-sizing: border-box;
+     font-family: 'Gilroy';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color:blanchedalmond;
+    
+}
+

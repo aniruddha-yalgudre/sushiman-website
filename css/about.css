@@ -1,0 +1,88 @@
+
+.about-us{
+    position: relative;
+    display: flex;
+    flex-direction: space-between  ;
+    width: 100%;
+
+}
+
+.about-us .sushi-image{
+    position: relative;
+    display: flex;
+    flex-direction: column  ;
+    height: 100vh;
+    width: 50%;
+    background-color: rgba(240, 174, 76, 0.607);
+    
+}
+.about-us .sushi-image .sushi1,.sushi2{
+    position: relative;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    border-bottom: 2px solid rgb(21, 21, 21)  ;
+} 
+
+
+
+.about-us .sushi1 >button{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background: #000;
+    color: #fff;
+    border: none;
+    transform: translate(0%,50%);
+    padding: 20px 30px;
+    font-size: 1.3vw;
+    border-top-left-radius:50px  ;
+    border-bottom-left-radius: 50px ;
+    z-index: 3;    
+
+}
+
+
+.about-us .sushi1 >img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-63%,-50%);
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+.about-us .sushi2 >img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,-50%);
+    height: 80%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.about-us  .about-content{
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    
+    height: 100vh;
+    width: 50%;
+    padding: 64px;
+    
+
+}
+.about-content h1{
+    text-transform: capitalize;
+    margin-top: 2vw;
+    font-size: 4.2vw;
+}
+.about-content p{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    line-height: 1.8;
+}
